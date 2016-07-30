@@ -239,7 +239,7 @@ def parse_map(map_dict, iteration_num, step, step_location):
                 'latitude': p['latitude'],
                 'longitude': p['longitude'],
                 'disappear_time': d_t
-            }
+              }
 
                 webhook_data = {
                     'encounter_id': b64encode(str(p['encounter_id'])),
